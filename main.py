@@ -5,7 +5,7 @@ def send_email(email, otp):
     smtp_server = 'smtp.gmail.com'  # SMTP server for Gmail
     smtp_port = 587  # SMTP port for TLS
     sender_email = 'rk0905543@gmail.com'
-    sender_password = 'htvg dwdf hbny fotc'
+    sender_password = '' #your app password
 
     # Create an SMTP connection
     server = smtplib.SMTP(smtp_server, smtp_port)
